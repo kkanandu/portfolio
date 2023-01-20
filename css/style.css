@@ -437,13 +437,13 @@ body.section-show .transition-mask:before{
 
 
 .front-section{
-	padding-top:60px;
-	padding-bottom:200px;
+	padding-top:1px;
+	padding-bottom:10px;
 	position:relative;
 }
 .front-heading{
 	text-align:center;
-	margin-top:190px;
+	margin-top:100px;
 }
 .front-heading > h2{
 	font-size:55px;
@@ -463,8 +463,8 @@ body.section-show .transition-mask:before{
 }
 
 .front-person-img{
-	width:500px;
-	height:500px;
+	width:400px;
+	height:400px;
 	overflow:hidden;
 	/* background:#F0F0F0; */
 	background: #ecc7b2;
@@ -473,7 +473,7 @@ body.section-show .transition-mask:before{
 	-webkit-transition:height .5s .3s ease, transform .5s .8s ease;
 	-moz-transition:height .5s .3s ease, transform .5s .8s ease;
 	transition:height .5s .3s ease, transform .5s .8s ease;
-	margin:200px auto;
+	margin:100px auto;
 	margin-bottom:0;
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
@@ -483,7 +483,7 @@ body.section-show .transition-mask:before{
 	border-radius:0;
 }
 .front-person-img > img{
-	max-width:100%;
+	max-width:99%;
 	vertical-align:bottom;
 	-webkit-transform:rotate(-45deg) translateY(40px);
 	-moz-transform:rotate(-45deg) translateY(40px);
@@ -499,10 +499,10 @@ body.section-show .transition-mask:before{
 .front-person-titles{
 	position:relative;
 	z-index:10;
-	height:500px;
-	width:500px;
+	height:400px;
+	width:400px;
 	margin:auto;
-	margin-top:-500px;
+	margin-top:-400px;
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
 	-ms-transform:rotate(45deg);
